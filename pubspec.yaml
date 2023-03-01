@@ -1,6 +1,6 @@
 name: font_awesome_metadata
-description: 'A searchable collection of the free Font Awesome icons.'
-version: 1.0.0
+description: 'Extended data collection of the free Font Awesome icons allowing to filter,search and sort them. Those collections are generated from the Font Awesome metadata.'
+version: 1.0.1
 repository: https://github.com/gxsham/font_awesome_metadata
 homepage: https://github.com/gxsham/font_awesome_metadata
 
