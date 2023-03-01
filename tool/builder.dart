@@ -99,6 +99,7 @@ List<String> generateSearchTermMap(List<IconMetadata> icons) {
   }
 
   for (var element in map.entries) {
+    output.add('/// ${element.key}');
     output.add("'${element.key}': ${element.value.map((e) => 'FontAwesomeIcons.$e').toList().toString()},");
   }
 
@@ -122,6 +123,7 @@ List<String> generateIconNameMap(List<IconMetadata> icons) {
   for (var icon in icons) {
     for (var style in icon.free) {
       iconName = normalizeIconName(icon.name, style, icon.free.length);
+      output.add('/// name: ${icon.name} unicode: ${icon.unicode} style: $style');
       output.add("'$iconName': FontAwesomeIcons.$iconName,");
     }
   }
@@ -148,10 +150,12 @@ List<String> generateCategories(List<IconMetadata> icons, List<IconCategory> cat
   ];
 
   for (var category in categories) {
+    output.add('/// ${category.label}');
     output.add(
         "static IconCategory ${category.name.camelCase} = IconCategory('${category.name}', '${category.label}', ${category.icons.toList().map((e) => 'FontAwesomeIcons.${normalizeIconName(e, 'solid', 1)}').toList()});");
   }
 
+  output.add('/// Iterable of all the available categories');
   output.add("static List<IconCategory> get categories => ${categories.map((e) => e.name.camelCase).toList()};");
   output.add('}');
 

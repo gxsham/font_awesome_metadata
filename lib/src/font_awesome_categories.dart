@@ -11,6 +11,7 @@ class IconCategory {
 
 /// Name to IconData mapping
 class FaIconCategory {
+  /// Accessibility
   static IconCategory accessibility =
       IconCategory('accessibility', 'Accessibility', [
     FontAwesomeIcons.accessibleIcon,
@@ -36,6 +37,8 @@ class FaIconCategory {
     FontAwesomeIcons.wheelchair,
     FontAwesomeIcons.wheelchairMove
   ]);
+
+  /// Alert
   static IconCategory alert = IconCategory('alert', 'Alert', [
     FontAwesomeIcons.bell,
     FontAwesomeIcons.bellSlash,
@@ -47,6 +50,8 @@ class FaIconCategory {
     FontAwesomeIcons.skullCrossbones,
     FontAwesomeIcons.triangleExclamation
   ]);
+
+  /// Alphabet
   static IconCategory alphabet = IconCategory('alphabet', 'Alphabet', [
     FontAwesomeIcons.a,
     FontAwesomeIcons.b,
@@ -77,6 +82,8 @@ class FaIconCategory {
     FontAwesomeIcons.y,
     FontAwesomeIcons.z
   ]);
+
+  /// Animals
   static IconCategory animals = IconCategory('animals', 'Animals', [
     FontAwesomeIcons.bugs,
     FontAwesomeIcons.cat,
@@ -104,6 +111,8 @@ class FaIconCategory {
     FontAwesomeIcons.spider,
     FontAwesomeIcons.worm
   ]);
+
+  /// Arrows
   static IconCategory arrows = IconCategory('arrows', 'Arrows', [
     FontAwesomeIcons.angleDown,
     FontAwesomeIcons.angleLeft,
@@ -225,6 +234,8 @@ class FaIconCategory {
     FontAwesomeIcons.upRightFromSquare,
     FontAwesomeIcons.upload
   ]);
+
+  /// Astronomy
   static IconCategory astronomy = IconCategory('astronomy', 'Astronomy', [
     FontAwesomeIcons.globe,
     FontAwesomeIcons.meteor,
@@ -234,6 +245,8 @@ class FaIconCategory {
     FontAwesomeIcons.shuttleSpace,
     FontAwesomeIcons.userAstronaut
   ]);
+
+  /// Automotive
   static IconCategory automotive = IconCategory('automotive', 'Automotive', [
     FontAwesomeIcons.bus,
     FontAwesomeIcons.busSimple,
@@ -264,6 +277,8 @@ class FaIconCategory {
     FontAwesomeIcons.truckPickup,
     FontAwesomeIcons.vanShuttle
   ]);
+
+  /// Buildings
   static IconCategory buildings = IconCategory('buildings', 'Buildings', [
     FontAwesomeIcons.archway,
     FontAwesomeIcons.arrowRightToCity,
@@ -340,6 +355,8 @@ class FaIconCategory {
     FontAwesomeIcons.vihara,
     FontAwesomeIcons.warehouse
   ]);
+
+  /// Business
   static IconCategory business = IconCategory('business', 'Business', [
     FontAwesomeIcons.addressBook,
     FontAwesomeIcons.addressCard,
@@ -438,6 +455,8 @@ class FaIconCategory {
     FontAwesomeIcons.vault,
     FontAwesomeIcons.wallet
   ]);
+
+  /// Camping
   static IconCategory camping = IconCategory('camping', 'Camping', [
     FontAwesomeIcons.binoculars,
     FontAwesomeIcons.bottleWater,
@@ -477,6 +496,8 @@ class FaIconCategory {
     FontAwesomeIcons.trailer,
     FontAwesomeIcons.tree
   ]);
+
+  /// Charity
   static IconCategory charity = IconCategory('charity', 'Charity', [
     FontAwesomeIcons.circleDollarToSlot,
     FontAwesomeIcons.dollarSign,
@@ -499,6 +520,8 @@ class FaIconCategory {
     FontAwesomeIcons.ribbon,
     FontAwesomeIcons.seedling
   ]);
+
+  /// Charts + Diagrams
   static IconCategory chartsDiagrams =
       IconCategory('charts-diagrams', 'Charts + Diagrams', [
     FontAwesomeIcons.barsProgress,
@@ -517,6 +540,8 @@ class FaIconCategory {
     FontAwesomeIcons.squarePollHorizontal,
     FontAwesomeIcons.squarePollVertical
   ]);
+
+  /// Childhood
   static IconCategory childhood = IconCategory('childhood', 'Childhood', [
     FontAwesomeIcons.appleWhole,
     FontAwesomeIcons.baby,
@@ -544,6 +569,8 @@ class FaIconCategory {
     FontAwesomeIcons.shapes,
     FontAwesomeIcons.snowman
   ]);
+
+  /// Clothing + Fashion
   static IconCategory clothingFashion =
       IconCategory('clothing-fashion', 'Clothing + Fashion', [
     FontAwesomeIcons.glasses,
@@ -559,6 +586,8 @@ class FaIconCategory {
     FontAwesomeIcons.vest,
     FontAwesomeIcons.vestPatches
   ]);
+
+  /// Coding
   static IconCategory coding = IconCategory('coding', 'Coding', [
     FontAwesomeIcons.barcode,
     FontAwesomeIcons.bars,
@@ -604,6 +633,8 @@ class FaIconCategory {
     FontAwesomeIcons.windowMinimize,
     FontAwesomeIcons.windowRestore
   ]);
+
+  /// Communication
   static IconCategory communication =
       IconCategory('communication', 'Communication', [
     FontAwesomeIcons.addressBook,
@@ -659,6 +690,8 @@ class FaIconCategory {
     FontAwesomeIcons.voicemail,
     FontAwesomeIcons.walkieTalkie
   ]);
+
+  /// Connectivity
   static IconCategory connectivity =
       IconCategory('connectivity', 'Connectivity', [
     FontAwesomeIcons.bluetooth,
@@ -676,6 +709,8 @@ class FaIconCategory {
     FontAwesomeIcons.towerCell,
     FontAwesomeIcons.wifi
   ]);
+
+  /// Construction
   static IconCategory construction =
       IconCategory('construction', 'Construction', [
     FontAwesomeIcons.arrowUpFromGroundWater,
@@ -709,6 +744,8 @@ class FaIconCategory {
     FontAwesomeIcons.truckPickup,
     FontAwesomeIcons.wrench
   ]);
+
+  /// Design
   static IconCategory design = IconCategory('design', 'Design', [
     FontAwesomeIcons.bezierCurve,
     FontAwesomeIcons.brush,
@@ -764,6 +801,8 @@ class FaIconCategory {
     FontAwesomeIcons.wandMagic,
     FontAwesomeIcons.wandMagicSparkles
   ]);
+
+  /// Devices + Hardware
   static IconCategory devicesHardware =
       IconCategory('devices-hardware', 'Devices + Hardware', [
     FontAwesomeIcons.blenderPhone,
@@ -810,6 +849,8 @@ class FaIconCategory {
     FontAwesomeIcons.upload,
     FontAwesomeIcons.walkieTalkie
   ]);
+
+  /// Disaster + Crisis
   static IconCategory disaster = IconCategory('disaster', 'Disaster + Crisis', [
     FontAwesomeIcons.biohazard,
     FontAwesomeIcons.bugs,
@@ -849,6 +890,8 @@ class FaIconCategory {
     FontAwesomeIcons.worm,
     FontAwesomeIcons.xmarksLines
   ]);
+
+  /// Editing
   static IconCategory editing = IconCategory('editing', 'Editing', [
     FontAwesomeIcons.arrowsRotate,
     FontAwesomeIcons.bandage,
@@ -897,6 +940,8 @@ class FaIconCategory {
     FontAwesomeIcons.wandMagicSparkles,
     FontAwesomeIcons.xmark
   ]);
+
+  /// Education
   static IconCategory education = IconCategory('education', 'Education', [
     FontAwesomeIcons.appleWhole,
     FontAwesomeIcons.atom,
@@ -923,6 +968,8 @@ class FaIconCategory {
     FontAwesomeIcons.shapes,
     FontAwesomeIcons.userGraduate
   ]);
+
+  /// Emoji
   static IconCategory emoji = IconCategory('emoji', 'Emoji', [
     FontAwesomeIcons.faceAngry,
     FontAwesomeIcons.faceDizzy,
@@ -961,6 +1008,8 @@ class FaIconCategory {
     FontAwesomeIcons.faceSurprise,
     FontAwesomeIcons.faceTired
   ]);
+
+  /// Energy
   static IconCategory energy = IconCategory('energy', 'Energy', [
     FontAwesomeIcons.arrowUpFromGroundWater,
     FontAwesomeIcons.atom,
@@ -1000,6 +1049,8 @@ class FaIconCategory {
     FontAwesomeIcons.water,
     FontAwesomeIcons.wind
   ]);
+
+  /// Files
   static IconCategory files = IconCategory('files', 'Files', [
     FontAwesomeIcons.boxArchive,
     FontAwesomeIcons.clone,
@@ -1037,6 +1088,8 @@ class FaIconCategory {
     FontAwesomeIcons.photoFilm,
     FontAwesomeIcons.scissors
   ]);
+
+  /// Film + Video
   static IconCategory filmVideo = IconCategory('film-video', 'Film + Video', [
     FontAwesomeIcons.audioDescription,
     FontAwesomeIcons.circle,
@@ -1062,6 +1115,8 @@ class FaIconCategory {
     FontAwesomeIcons.videoSlash,
     FontAwesomeIcons.youtube
   ]);
+
+  /// Food + Beverage
   static IconCategory foodBeverage =
       IconCategory('food-beverage', 'Food + Beverage', [
     FontAwesomeIcons.appleWhole,
@@ -1113,6 +1168,8 @@ class FaIconCategory {
     FontAwesomeIcons.wineGlass,
     FontAwesomeIcons.wineGlassEmpty
   ]);
+
+  /// Fruits + Vegetables
   static IconCategory fruitsVegetables =
       IconCategory('fruits-vegetables', 'Fruits + Vegetables', [
     FontAwesomeIcons.appleWhole,
@@ -1122,6 +1179,8 @@ class FaIconCategory {
     FontAwesomeIcons.pepperHot,
     FontAwesomeIcons.seedling
   ]);
+
+  /// Gaming
   static IconCategory gaming = IconCategory('gaming', 'Gaming', [
     FontAwesomeIcons.bookSkull,
     FontAwesomeIcons.chess,
@@ -1170,6 +1229,8 @@ class FaIconCategory {
     FontAwesomeIcons.wizardsOfTheCoast,
     FontAwesomeIcons.xbox
   ]);
+
+  /// Genders
   static IconCategory gender = IconCategory('gender', 'Genders', [
     FontAwesomeIcons.genderless,
     FontAwesomeIcons.mars,
@@ -1186,6 +1247,8 @@ class FaIconCategory {
     FontAwesomeIcons.venusDouble,
     FontAwesomeIcons.venusMars
   ]);
+
+  /// Halloween
   static IconCategory halloween = IconCategory('halloween', 'Halloween', [
     FontAwesomeIcons.bookSkull,
     FontAwesomeIcons.broom,
@@ -1201,6 +1264,8 @@ class FaIconCategory {
     FontAwesomeIcons.toiletPaper,
     FontAwesomeIcons.wandSparkles
   ]);
+
+  /// Hands
   static IconCategory hands = IconCategory('hands', 'Hands', [
     FontAwesomeIcons.hand,
     FontAwesomeIcons.handBackFist,
@@ -1238,6 +1303,8 @@ class FaIconCategory {
     FontAwesomeIcons.thumbsDown,
     FontAwesomeIcons.thumbsUp
   ]);
+
+  /// Holidays
   static IconCategory holidays = IconCategory('holidays', 'Holidays', [
     FontAwesomeIcons.candyCane,
     FontAwesomeIcons.carrot,
@@ -1254,6 +1321,8 @@ class FaIconCategory {
     FontAwesomeIcons.sleigh,
     FontAwesomeIcons.snowman
   ]);
+
+  /// Household
   static IconCategory household = IconCategory('household', 'Household', [
     FontAwesomeIcons.arrowUpFromWaterPump,
     FontAwesomeIcons.bath,
@@ -1304,6 +1373,8 @@ class FaIconCategory {
     FontAwesomeIcons.tv,
     FontAwesomeIcons.utensils
   ]);
+
+  /// Humanitarian
   static IconCategory humanitarian =
       IconCategory('humanitarian', 'Humanitarian', [
     FontAwesomeIcons.anchor,
@@ -1640,6 +1711,8 @@ class FaIconCategory {
     FontAwesomeIcons.worm,
     FontAwesomeIcons.xmarksLines
   ]);
+
+  /// Logistics
   static IconCategory logistics = IconCategory('logistics', 'Logistics', [
     FontAwesomeIcons.anchor,
     FontAwesomeIcons.anchorCircleCheck,
@@ -1698,6 +1771,8 @@ class FaIconCategory {
     FontAwesomeIcons.warehouse,
     FontAwesomeIcons.xmarksLines
   ]);
+
+  /// Maps
   static IconCategory maps = IconCategory('maps', 'Maps', [
     FontAwesomeIcons.anchor,
     FontAwesomeIcons.bagShopping,
@@ -1836,6 +1911,8 @@ class FaIconCategory {
     FontAwesomeIcons.wineGlass,
     FontAwesomeIcons.wrench
   ]);
+
+  /// Maritime
   static IconCategory maritime = IconCategory('maritime', 'Maritime', [
     FontAwesomeIcons.anchor,
     FontAwesomeIcons.anchorCircleCheck,
@@ -1852,6 +1929,8 @@ class FaIconCategory {
     FontAwesomeIcons.shrimp,
     FontAwesomeIcons.water
   ]);
+
+  /// Marketing
   static IconCategory marketing = IconCategory('marketing', 'Marketing', [
     FontAwesomeIcons.arrowsSpin,
     FontAwesomeIcons.arrowsToDot,
@@ -1878,6 +1957,8 @@ class FaIconCategory {
     FontAwesomeIcons.squarePollVertical,
     FontAwesomeIcons.timeline
   ]);
+
+  /// Mathematics
   static IconCategory mathematics = IconCategory('mathematics', 'Mathematics', [
     FontAwesomeIcons.calculator,
     FontAwesomeIcons.circleMinus,
@@ -1903,6 +1984,8 @@ class FaIconCategory {
     FontAwesomeIcons.waveSquare,
     FontAwesomeIcons.xmark
   ]);
+
+  /// Media Playback
   static IconCategory mediaPlayback =
       IconCategory('media-playback', 'Media Playback', [
     FontAwesomeIcons.arrowRotateLeft,
@@ -1943,6 +2026,8 @@ class FaIconCategory {
     FontAwesomeIcons.volumeOff,
     FontAwesomeIcons.volumeXmark
   ]);
+
+  /// Medical + Health
   static IconCategory medicalHealth =
       IconCategory('medical-health', 'Medical + Health', [
     FontAwesomeIcons.accessibleIcon,
@@ -2056,6 +2141,8 @@ class FaIconCategory {
     FontAwesomeIcons.wheelchairMove,
     FontAwesomeIcons.xRay
   ]);
+
+  /// Money
   static IconCategory money = IconCategory('money', 'Money', [
     FontAwesomeIcons.australSign,
     FontAwesomeIcons.bahtSign,
@@ -2131,6 +2218,8 @@ class FaIconCategory {
     FontAwesomeIcons.wonSign,
     FontAwesomeIcons.yenSign
   ]);
+
+  /// Moving
   static IconCategory moving = IconCategory('moving', 'Moving', [
     FontAwesomeIcons.boxArchive,
     FontAwesomeIcons.boxOpen,
@@ -2149,6 +2238,8 @@ class FaIconCategory {
     FontAwesomeIcons.truckRampBox,
     FontAwesomeIcons.wineGlass
   ]);
+
+  /// Music + Audio
   static IconCategory musicAudio =
       IconCategory('music-audio', 'Music + Audio', [
     FontAwesomeIcons.compactDisc,
@@ -2174,6 +2265,8 @@ class FaIconCategory {
     FontAwesomeIcons.volumeOff,
     FontAwesomeIcons.volumeXmark
   ]);
+
+  /// Nature
   static IconCategory nature = IconCategory('nature', 'Nature', [
     FontAwesomeIcons.binoculars,
     FontAwesomeIcons.bug,
@@ -2204,6 +2297,8 @@ class FaIconCategory {
     FontAwesomeIcons.wind,
     FontAwesomeIcons.worm
   ]);
+
+  /// Numbers
   static IconCategory numbers = IconCategory('numbers', 'Numbers', [
     FontAwesomeIcons.zero,
     FontAwesomeIcons.one,
@@ -2216,6 +2311,8 @@ class FaIconCategory {
     FontAwesomeIcons.eight,
     FontAwesomeIcons.nine
   ]);
+
+  /// Photos + Images
   static IconCategory photosImages =
       IconCategory('photos-images', 'Photos + Images', [
     FontAwesomeIcons.bolt,
@@ -2243,6 +2340,8 @@ class FaIconCategory {
     FontAwesomeIcons.sliders,
     FontAwesomeIcons.unsplash
   ]);
+
+  /// Political
   static IconCategory political = IconCategory('political', 'Political', [
     FontAwesomeIcons.award,
     FontAwesomeIcons.buildingFlag,
@@ -2265,6 +2364,8 @@ class FaIconCategory {
     FontAwesomeIcons.scaleUnbalanced,
     FontAwesomeIcons.scaleUnbalancedFlip
   ]);
+
+  /// Punctuation + Symbols
   static IconCategory punctuationSymbols =
       IconCategory('punctuation-symbols', 'Punctuation + Symbols', [
     FontAwesomeIcons.asterisk,
@@ -2286,6 +2387,8 @@ class FaIconCategory {
     FontAwesomeIcons.quoteRight,
     FontAwesomeIcons.section
   ]);
+
+  /// Religion
   static IconCategory religion = IconCategory('religion', 'Religion', [
     FontAwesomeIcons.ankh,
     FontAwesomeIcons.atom,
@@ -2320,6 +2423,8 @@ class FaIconCategory {
     FontAwesomeIcons.vihara,
     FontAwesomeIcons.yinYang
   ]);
+
+  /// Science
   static IconCategory science = IconCategory('science', 'Science', [
     FontAwesomeIcons.atom,
     FontAwesomeIcons.biohazard,
@@ -2355,6 +2460,8 @@ class FaIconCategory {
     FontAwesomeIcons.vialVirus,
     FontAwesomeIcons.vials
   ]);
+
+  /// Science Fiction
   static IconCategory scienceFiction =
       IconCategory('science-fiction', 'Science Fiction', [
     FontAwesomeIcons.atom,
@@ -2371,6 +2478,8 @@ class FaIconCategory {
     FontAwesomeIcons.spaceAwesome,
     FontAwesomeIcons.userAstronaut
   ]);
+
+  /// Security
   static IconCategory security = IconCategory('security', 'Security', [
     FontAwesomeIcons.ban,
     FontAwesomeIcons.bug,
@@ -2434,6 +2543,8 @@ class FaIconCategory {
     FontAwesomeIcons.userShield,
     FontAwesomeIcons.vault
   ]);
+
+  /// Shapes
   static IconCategory shapes = IconCategory('shapes', 'Shapes', [
     FontAwesomeIcons.bookmark,
     FontAwesomeIcons.burst,
@@ -2460,6 +2571,8 @@ class FaIconCategory {
     FontAwesomeIcons.star,
     FontAwesomeIcons.ticketSimple
   ]);
+
+  /// Shopping
   static IconCategory shopping = IconCategory('shopping', 'Shopping', [
     FontAwesomeIcons.alipay,
     FontAwesomeIcons.amazonPay,
@@ -2523,6 +2636,8 @@ class FaIconCategory {
     FontAwesomeIcons.truck,
     FontAwesomeIcons.truckFast
   ]);
+
+  /// Social
   static IconCategory social = IconCategory('social', 'Social', [
     FontAwesomeIcons.bell,
     FontAwesomeIcons.cakeCandles,
@@ -2556,6 +2671,8 @@ class FaIconCategory {
     FontAwesomeIcons.users,
     FontAwesomeIcons.video
   ]);
+
+  /// Spinners
   static IconCategory spinners = IconCategory('spinners', 'Spinners', [
     FontAwesomeIcons.arrowsSpin,
     FontAwesomeIcons.asterisk,
@@ -2581,6 +2698,8 @@ class FaIconCategory {
     FontAwesomeIcons.sun,
     FontAwesomeIcons.yinYang
   ]);
+
+  /// Sports + Fitness
   static IconCategory sportsFitness =
       IconCategory('sports-fitness', 'Sports + Fitness', [
     FontAwesomeIcons.baseball,
@@ -2617,6 +2736,8 @@ class FaIconCategory {
     FontAwesomeIcons.volleyball,
     FontAwesomeIcons.weightHanging
   ]);
+
+  /// Text Formatting
   static IconCategory textFormatting =
       IconCategory('text-formatting', 'Text Formatting', [
     FontAwesomeIcons.alignCenter,
@@ -2660,6 +2781,8 @@ class FaIconCategory {
     FontAwesomeIcons.textWidth,
     FontAwesomeIcons.underline
   ]);
+
+  /// Time
   static IconCategory time = IconCategory('time', 'Time', [
     FontAwesomeIcons.bell,
     FontAwesomeIcons.bellSlash,
@@ -2679,6 +2802,8 @@ class FaIconCategory {
     FontAwesomeIcons.stopwatch,
     FontAwesomeIcons.stopwatch20
   ]);
+
+  /// Toggle
   static IconCategory toggle = IconCategory('toggle', 'Toggle', [
     FontAwesomeIcons.bullseye,
     FontAwesomeIcons.circle,
@@ -2696,6 +2821,8 @@ class FaIconCategory {
     FontAwesomeIcons.toggleOn,
     FontAwesomeIcons.wifi
   ]);
+
+  /// Transportation
   static IconCategory transportation =
       IconCategory('transportation', 'Transportation', [
     FontAwesomeIcons.accessibleIcon,
@@ -2749,6 +2876,8 @@ class FaIconCategory {
     FontAwesomeIcons.wheelchair,
     FontAwesomeIcons.wheelchairMove
   ]);
+
+  /// Travel + Hotel
   static IconCategory travelHotel =
       IconCategory('travel-hotel', 'Travel + Hotel', [
     FontAwesomeIcons.archway,
@@ -2825,6 +2954,8 @@ class FaIconCategory {
     FontAwesomeIcons.wineGlass,
     FontAwesomeIcons.wineGlassEmpty
   ]);
+
+  /// Users + People
   static IconCategory usersPeople =
       IconCategory('users-people', 'Users + People', [
     FontAwesomeIcons.accessibleIcon,
@@ -2949,6 +3080,8 @@ class FaIconCategory {
     FontAwesomeIcons.wheelchair,
     FontAwesomeIcons.wheelchairMove
   ]);
+
+  /// Weather
   static IconCategory weather = IconCategory('weather', 'Weather', [
     FontAwesomeIcons.bolt,
     FontAwesomeIcons.boltLightning,
@@ -2988,6 +3121,8 @@ class FaIconCategory {
     FontAwesomeIcons.water,
     FontAwesomeIcons.wind
   ]);
+
+  /// Writing
   static IconCategory writing = IconCategory('writing', 'Writing', [
     FontAwesomeIcons.blog,
     FontAwesomeIcons.book,
@@ -3018,6 +3153,8 @@ class FaIconCategory {
     FontAwesomeIcons.squarePen,
     FontAwesomeIcons.thumbtack
   ]);
+
+  /// Iterable of all the available categories
   static List<IconCategory> get categories => [
         accessibility,
         alert,
