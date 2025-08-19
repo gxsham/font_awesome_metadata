@@ -1,47 +1,47 @@
 name: font_awesome_metadata
-description: 'Extended data collection of the free Font Awesome icons allowing to filter,search and sort them. Those collections are generated from the Font Awesome metadata.'
-version: 1.0.1
+description: "Extended data collection of the free Font Awesome icons allowing to filter,search and sort them. Those collections are generated from the Font Awesome metadata."
+version: 1.1.0
 repository: https://github.com/gxsham/font_awesome_metadata
 homepage: https://github.com/gxsham/font_awesome_metadata
 
 environment:
-  sdk: '>=2.19.2 <3.0.0'
+  sdk: ">=2.19.2 <3.0.0"
 
-dependencies: 
-  flutter: 
-    sdk: 'flutter'
-  font_awesome_flutter: '^10.4.0'
+dependencies:
+  flutter:
+    sdk: "flutter"
+  font_awesome_flutter: "10.7.0"
 
 dev_dependencies:
   yaml: ^3.1.1
   lints: ^2.0.1
-  recase: '^4.1.0'
-  flutter_test: 
-    sdk: 'flutter'
-  version: '^3.0.2'
+  recase: "^4.1.0"
+  flutter_test:
+    sdk: "flutter"
+  version: "^3.0.2"
 
-ignore_updates: 
-  - 'archive'
-  - 'async'
-  - 'boolean_selector'
-  - 'characters'
-  - 'charcode'
-  - 'collection'
-  - 'clock'
-  - 'crypto'
-  - 'fake_async'
-  - 'file'
-  - 'matcher'
-  - 'material_color_utilities'
-  - 'meta'
-  - 'path'
-  - 'source_span'
-  - 'stack_trace'
-  - 'stream_channel'
-  - 'string_scanner'
-  - 'sync_http'
-  - 'term_glyph'
-  - 'test_api'
-  - 'typed_data'
-  - 'vector_math'
-  - 'webdriver'
+ignore_updates:
+  - "archive"
+  - "async"
+  - "boolean_selector"
+  - "characters"
+  - "charcode"
+  - "collection"
+  - "clock"
+  - "crypto"
+  - "fake_async"
+  - "file"
+  - "matcher"
+  - "material_color_utilities"
+  - "meta"
+  - "path"
+  - "source_span"
+  - "stack_trace"
+  - "stream_channel"
+  - "string_scanner"
+  - "sync_http"
+  - "term_glyph"
+  - "test_api"
+  - "typed_data"
+  - "vector_math"
+  - "webdriver"
