@@ -22,11 +22,12 @@ class FontAwesomeMetadataPage extends StatefulWidget {
   const FontAwesomeMetadataPage({super.key});
 
   @override
-  State<FontAwesomeMetadataPage> createState() => _FontAwesomeMetadataPageState();
+  State<FontAwesomeMetadataPage> createState() =>
+      _FontAwesomeMetadataPageState();
 }
 
 class _FontAwesomeMetadataPageState extends State<FontAwesomeMetadataPage> {
-  List<IconData> results = [];
+  List<FaIconData> results = [];
   TextEditingController controller = TextEditingController();
 
   void directSearch(String searchTerm) {
@@ -38,9 +39,11 @@ class _FontAwesomeMetadataPageState extends State<FontAwesomeMetadataPage> {
   void multipleSearch(String searchTerm) {
     setState(() {
       results = searchTermMappings.entries // get the entries as iterable
-          .where((e) => e.key.contains(searchTerm)) // search for all the entries where the key contains the search term
+          .where((e) => e.key.contains(
+              searchTerm)) // search for all the entries where the key contains the search term
           .map((e) => e.value) // select only the entry value
-          .expand((e) => e) // because the value is a list expand all the results to a single list
+          .expand((e) =>
+              e) // because the value is a list expand all the results to a single list
           .toSet() // make sure you don't have duplicates
           .toList();
     });
@@ -93,7 +96,9 @@ class _FontAwesomeMetadataPageState extends State<FontAwesomeMetadataPage> {
             Expanded(
                 child: GridView.builder(
                     itemCount: results.length,
-                    gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 10),
+                    gridDelegate:
+                        const SliverGridDelegateWithFixedCrossAxisCount(
+                            crossAxisCount: 10),
                     itemBuilder: (context, index) => FaIcon(results[index])))
           ],
         ),
