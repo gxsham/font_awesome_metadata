@@ -1,3 +1,7 @@
+## 2.0.0
+
+- Update font_awesome_flutter version to 11.0.0
+
 ## 1.1.0
 
 - Update font_awesome_flutter version to 10.7.0

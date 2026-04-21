@@ -1,6 +1,6 @@
 name: font_awesome_metadata
 description: "Extended data collection of the free Font Awesome icons allowing to filter,search and sort them. Those collections are generated from the Font Awesome metadata."
-version: 1.1.0
+version: 2.0.0
 repository: https://github.com/gxsham/font_awesome_metadata
 homepage: https://github.com/gxsham/font_awesome_metadata
 
@@ -10,7 +10,7 @@ environment:
 dependencies:
   flutter:
     sdk: "flutter"
-  font_awesome_flutter: "10.7.0"
+  font_awesome_flutter: ">=11.0.0 <11.1.0"
 
 dev_dependencies:
   yaml: ^3.1.1
